@@ -1,0 +1,50 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  background-color: pink;
+  height: auto;
+}
+p {
+  background-color: grey;
+  color: #1A237E;
+  padding: 15px;
+}
+ul {
+  background-color: grey;
+  padding: 30px;
+}
+li {
+  color: #1A237E;
+}
+#small-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+}
+#big-circle {
+  background-color: #4CAF50;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+#div3 {
+  height: 50px;
+  width: 50px;
+  background-color: #004590;
+}
+#div3:hover {
+  background-color: rgba(0, 69, 144, 0.5);
+}
+#div4 {
+  height: 50px;
+  display: inline-block;
+}
+#left {
+  width: 100px;
+  background-color: #000000;
+}
+#right {
+  width: 200px;
+  background-color: #112233;
+}
