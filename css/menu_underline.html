@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://js.jirengu.com
+
+Copyright (c) 2018 by chris118 (http://js.jirengu.com/rahemutuqo/5/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+<meta name="description" content="menu" />
+  <meta charset="utf-8">
+  <title>JS Bin</title>
+<style id="jsbin-css">
+/* ul{
+  text-align:center;
+}
+
+li{
+  display:inline-block;
+  padding: 0px 15px;
+} */
+
+
+ul{
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+li{
+    display:inline-block;
+    position: relative;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+li::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 0;
+    height: 100%;
+    border-bottom: 2px solid #000;
+    transition: 0.2s all linear;
+}
+
+li:hover::before{
+  width: 100%;
+  left: 0;
+  transition-delay: 0.2s;
+}
+
+li:hover ~ li::before {
+    left: 0;
+}
+</style>
+</head>
+<body>
+<div>
+  <ul>
+    <li>Home</li>
+    <li>Products</li>
+    <li>News</li>
+    <li>AboutUs</li>
+  </ul>
+</div>
+</body>
+</html>
